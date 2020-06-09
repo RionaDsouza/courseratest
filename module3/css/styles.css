@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	background-color: #fbcee7;
+	color: #02158c;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #ccffcc;
+	border-radius: 0;
+	border: 0;
+}
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-size: 1.5em;
+	color: #000099;
+	margin-top: 5px;
+	font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#collapsable-nav {
+	font-size: 25px;
+	color: #000099;
+	text-align: center;
+	
+}
+#nav-list {
+	margin-top: 15px;
+}
+#nav-list a {
+	color: #000099; 
+	font-size: 0.8em;
+	margin: 5px;
+}
+
+#nav-list a:hover, #nav-list a:focus{
+	text-decoration: none;
+	background: #fff;
+}
+
+.navbar-toggle span{
+	color: #000099;
+}
+.page-heading {
+	background-color: #ccffcc;
+	border-top: 2px solid #000099;
+	border-bottom: 2px solid #000099;
+	font-size: 50px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000099;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.random-text {
+	background-color: #ccff99;
+}
+.section-heading {
+	font-size: 1.5em;
+	margin: 10px;
+
+
+}
+
+/* MAIN CONTENT */
+#inside-text {
+	background-color: #ccff99;
+	margin: 2px;
+	margin-top: 10px;
+	padding: 0;
+}
+#inside-text #text-heading h3{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #03330f;
+	opacity: 0.4;
+	margin: 0;
+}
+#top-link {
+	color: #fff;
+	font-size: 1.2em;
+	float: right;
+	background-color: #03330f;
+	opacity: 0.4;
+}
+#top-link a:hover, #top-link a:focus {
+	text-decoration: none;
+}
+
+/* END MAIN CONTENT */
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+	#inside-text {
+		width: 32.8%;
+	}
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6 {
+		width: 49%;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
