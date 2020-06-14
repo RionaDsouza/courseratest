@@ -5,12 +5,12 @@ body {
 	font-size: 16px;
 	background-color: #fbcee7;
 	color: #02158c;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font: Raleway;
 }
 
 /* HEADER */
 #header-nav {
-	background-color: #ccffcc;
+	background-color: #000099;
 	border-radius: 0;
 	border: 0;
 }
@@ -20,7 +20,7 @@ body {
 }
 .navbar-brand h1 {
 	font-size: 1.5em;
-	color: #000099;
+	color: #ccffcc;
 	margin-top: 5px;
 	font-weight: bold;
 }
@@ -30,7 +30,7 @@ body {
 
 #collapsable-nav {
 	font-size: 25px;
-	color: #000099;
+	color: #ccffcc;
 	text-align: center;
 	
 }
@@ -38,7 +38,7 @@ body {
 	margin-top: 15px;
 }
 #nav-list a {
-	color: #000099; 
+	color: #ccffcc; 
 	font-size: 0.8em;
 	margin: 5px;
 }
@@ -49,16 +49,17 @@ body {
 }
 
 .navbar-toggle span{
-	color: #000099;
+	color: #ccffcc;
 }
 .page-heading {
-	background-color: #ccffcc;
-	border-top: 2px solid #000099;
-	border-bottom: 2px solid #000099;
+	color: #ccffcc;
+	background-color: #000099;
+	border-top: 2px solid #ccffcc;
+	border-bottom: 2px solid #ccffcc;
 	font-size: 50px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #000099;
+  border: 1px solid #ccffcc;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
